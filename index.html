@@ -41,9 +41,22 @@
                     </nav>
                     <div class="header__tablets_nav">
                         <div class="tablets__nav_btn">
-                            <span></span>
-                            <span></span>
-                            <span></span>
+                            <div class="phone__nav_btn">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <svg class="ham hamRotate ham1" viewBox="20 20 100 50" width="50" onclick="this.classList.toggle('active')">
+                                <path
+                                      class="line top"
+                                      d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                                <path
+                                      class="line middle"
+                                      d="m 30,50 h 40" />
+                                <path
+                                      class="line bottom"
+                                      d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                              </svg>
                         </div>
                         <ul class="nav__tablets_list">
                             <li class="nav__tablets_item nav__tablets_item_close_btn">
@@ -76,7 +89,7 @@
                     <p class="intro__paragraph">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, quidem molestiae? At dicta suscipit eveniet repellendus quo atque consectetur facilis debitis aliquam ea? Corporis debitis rem, facere voluptatibus blanditiis quidem.
                     </p>
-                    <button class="intro__button" type="button">Find Out More</button>
+                    <button class="intro__button" type="button"><span>Find Out More</span></button>
                 </div>
             </div>
         </section>
